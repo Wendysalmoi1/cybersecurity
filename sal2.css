@@ -39,7 +39,8 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-    top: 100px;
+    right: 10px;
+    
 }
 .top-left{
     position: absolute;
@@ -49,9 +50,9 @@ nav ul li a {
     font-size: 16px;
     
 }
-.top-right{
+nav ul li a .top-right{
     position: absolute;
-    right:10px ;
+    right:1000px ;
     text-decoration: underline;
 }
 

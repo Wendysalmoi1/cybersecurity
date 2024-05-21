@@ -1,0 +1,25 @@
+body{
+    border-style: solid;
+    font-size: 16px;
+}
+h1{
+    text-decoration: double underline;
+    display: flex;
+    margin: 15px;
+    margin-left: 194px;
+    font-size: 40px;
+}
+h1 p{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-decoration: double underline;
+    display: flex;
+    margin: 15px;
+    margin-left: 194px;
+    font-size: 40px;
+}
+h2 p{
+    
+}

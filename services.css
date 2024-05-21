@@ -1,0 +1,13 @@
+body{
+    border-style: solid;
+}
+h2{
+    text-decoration: double underline;
+    display: flex;
+    margin: 15px;
+    margin-left: 194px;
+    font-size: 40px;
+}
+nav ul{
+    text-decoration: none;
+}

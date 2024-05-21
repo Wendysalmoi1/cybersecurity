@@ -1,56 +1,23 @@
-body{
+body {
+    font-size: 15px;
     margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#000328;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-style: oblique;
+    text-decoration: wavy;
+}
+nav a{
+    display: flexbox;
+    margin-right: 90px;
     background-color: #000328;
-    font-size: 16px;
-   
-}
-@media(max-width:660px){
-    body{
-        margin: 0;
-        width: 90%;
-    }
-    header{
-        border-radius: 2000px;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-    
-}
-header{
-    margin: auto;
-    background-repeat: no-repeat;
-    height: 20px;
-    align-items: start;
-    justify-content: space-between;
-    padding: 10px;
-    color: white;
-    border-radius: 2000px;
-} 
-header nav{
-    position: absolute;
-    top: 8px;
-    right: 18px;
-    justify-content: space-between;
-    font-size: 16px;
-    font-style: normal;
-}
-header nav a{
-    margin-left: 10px;
-}
-header a{
     color: white;
     text-decoration: none;
-    gap: 1px;
-}
-.top-left{
-    position: absolute;
-    top: 18px;
-    left: 200px;
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
+    border-radius: 300px;
 }
 img{
     border-radius: 100px;
@@ -58,55 +25,159 @@ img{
     margin: 0 auto;
     size: 5px;
     position: absolute;
-    width:150px;
-    bottom:-30px;
+    width: 100px;
+   top: 10px;
+   right: 890px;
 }
-h1{
-text-align: center;
-font-size: 40px;
-font-style: italic;
+main img{
+    top: 350px;
+    width: 400px;
+    left: 800px;
 }
-section{
-    color: white;
-    position: relative;
-    margin-top:10px ;
-    top: 100px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+div{
+   
     
 }
-section h2{
-    display: block;
-    margin-bottom: 10px;
+h3 {
+    text-decoration: double underline;
+    font-family: sans-serif;
+    color: #000328;
+   margin-top: 20px;
+   font-size: 100px;
+   margin-left: 100px;
+}
+section img{
+    size: 10px;
+    top: 360px;
+    border-radius: 20px;
+    left: 850px;
+    width: 200px;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
+    background-color: white;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: underline;
+    right: 10px;
+   margin-left: 100px;
+
+    
+}
+
+.top-left{
+    position: absolute;
+    top: 119px;
+    left: 10px;
+    text-decoration: underline;
+    font-size: 16px;
+    
+}
+nav ul li a .top-right{
+    position: absolute;
+    right:1000px ;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+flyout-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0,0,0, 0.2);
+    padding: 8px 0;
+    list-style-type: none;
+    margin: 0;
+    transition: opacity 0.3 ease;
+}
+menu{
+    position: relative;
+    left: 10px;
+    border-radius: 100px;
+}
+.toggle-btn{
+  background-color: #000328;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+.flyout-menu li {
+    padding: 8px 20px;
+}
+.flyout-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+.menu:hover .flyout-menu {
+    display: block;
+}
+div p{
+  display: flex;
+  
+}
+
+
+h2{
+    text-decoration: underline;
+    color: black;
+    margin-left: 280px;
+}
+li{
+    top: 1000px;
+}
+section {
+    margin-bottom: 20px;
+}
+
+h4{
+    display: flex;
+    margin-left: 280px;
+    font-size: 20px;
+    font-weight: 22.5px;
+    text-decoration: underline;
+}
+.testimonials{
+    border:1px  #000328;
+    margin-left: 150px;
+    display: flexbox;
+}
+.student{
+    margin-left: 100px;
+    background-color: #000328;
+    width: 105px;
+    color: white;
+    border-radius: 100px;
+}
+.student2{
+    margin-left: 100px;
+    background-color: #000328;
+    width: 140px;
+    color: white;
+    border-radius: 100px;
+}
+
+
+footer {
+    background-color: #000328;
+    color: #fff;
+    text-align: center;
+    padding: 0;
    
 }
-h2{
-    position: relative;
-    top:  10px;
-    bottom: 100px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-decoration: double underline;
-    left: 10px;
-    width: 60px;
-    margin-right: -50px;
-    text-align: left;
-    padding: -70px;
+.icon{
+    left: 100px;
+    top: 100px;
 }
-
-h3{
-    position: relative;
-    top: 10px;
-    text-decoration: double underline;
-}
-h4{
-   text-decoration: double underline;
-   font-size: 20px;
-   top: 100px;
-}
-h4 p{
-    font-size: 50px;
-}
-
